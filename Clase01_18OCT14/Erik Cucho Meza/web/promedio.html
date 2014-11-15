@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PROMEDIO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      #page{
+        width: 300px;
+        background-color: antiquewhite;
+        margin: 10px auto;
+        padding: 10px;
+      }
+      #notas, #boton{
+          display: inline-block;
+          float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page">
+      <form method="post" action="Promediar">
+        <h1>PROMEDIO</h1>
+        <fieldset>
+          <legend>Datos de Entrada</legend>
+          <div id="notas">
+          <label>Nota 1</label>
+          <input type="number" name="n1" 
+                 placeholder="Nota1"/> <br/>
+          <label>Nota 2</label>
+          <input type="number" name="n2" 
+                 placeholder="Nota2"/> <br/>
+          <label>Nota 3</label>
+          <input type="number" name="n3" 
+                 placeholder="Nota3"/> <br/>
+          <label>Nota 4</label>
+          <input type="number" name="n4" 
+                 placeholder="Nota4"/>
+          </div>
+          <div id="boton" STYLE="WIDTH: 23PX; height: 35PX;"></div>
+             <input type="submit" value="Ok"/>
+        </fieldset><br/>
+     
+      </form>
+    </div>
+</html>

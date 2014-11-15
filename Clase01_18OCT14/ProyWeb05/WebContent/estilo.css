@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color:white;
+	font-size:16px;
+}
+
+.PAGE{
+	width: 300px;
+	background-color: #EFFBEF;
+	color: #07190B;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+ 

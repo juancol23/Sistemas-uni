@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VENTA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      #page{
+        width: 300px;
+        background-color: antiquewhite;
+        margin: 10px auto;
+        padding: 10px;
+      }
+      #datos, #boton{
+          
+          float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page">
+      <form method="post" action="Venta">
+        <h1>VENTA</h1>
+        <fieldset>
+          <legend>Datos de Entrada</legend>
+          <div id="datos">
+          <label>Precio</label>
+          <input name="pre" 
+                 placeholder="Precio"/> <br/>
+          <label>Cantidad</label>
+          <input name="cant" 
+                 placeholder="Cantidad"/> <br/>
+
+          </div>
+          <div id="boton"></div>
+             <input type="submit" value="Procesar"/>
+        </fieldset><br/>
+      </form>
+    </div>
+</html>

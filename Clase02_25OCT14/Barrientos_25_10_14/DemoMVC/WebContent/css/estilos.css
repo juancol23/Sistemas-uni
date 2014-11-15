@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #A4A4A4;
+}
+
+.PAGINA{
+	width: 800px;
+	background-color: #2E2EFE;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+.CABECERA{
+	background-color: #F8ECE0;
+	color: #424242;
+	padding: 10px;
+	margin: 5px;
+}
+
+.WORK{
+	background-color: white;
+	color: #424242;
+	padding: 10px;
+	margin: 5px;
+	background-color: #F2F2F2;
+}
+
+.titulo{
+	color: #610B0B;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 0px 0px 10px 0px;
+}
+
+.menu{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	background-color: #BDBDBD;
+	color: white;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+h1{
+	font-size: 20px;
+}
+
+.error{
+	background-color: #F6D8CE;
+	color: red;
+	padding: 5px;
+}
